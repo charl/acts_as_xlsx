@@ -16,6 +16,8 @@ Synopsis
 
 Acts_as_xlsx is an active record plugin for Axlsx. It makes generating excel spreadsheets from any subclass of ActiveRecord::Base as simple as a couple of lines of code.
 
+This fork adds support for mixing acts_as_xlsx into [ActiveAttr](https://github.com/cgriego/active_attr).
+
 Feature List
 ------------
                                                                               
