@@ -97,4 +97,5 @@ end
 require 'active_record'
 ActiveRecord::Base.send :include, Axlsx::Ar
 
-
+require 'active_attr'
+ActiveAttr::BasicModel.send :include, Axlsx::Ar
